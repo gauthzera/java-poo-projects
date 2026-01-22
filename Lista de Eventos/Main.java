@@ -33,11 +33,13 @@ public class Main{
         List<Evento> eventosFuturos= list.stream().filter(x-> x.calcDuration()>0).toList();
         List<Evento> eventosPassados= list.stream().filter(x-> x.calcDuration()<=0).toList();
 
+        System.out.println();
         System.out.println("Listagem de eventos: ");
         for(Evento x: list){
             System.out.println(x);
         }
 
+        System.out.println();
         System.out.println("Eventos futuros: ");
         if(!eventosFuturos.isEmpty()) {
             for (Evento x : eventosFuturos){
