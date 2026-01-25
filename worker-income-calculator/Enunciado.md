@@ -9,5 +9,5 @@ do usuário um mês e mostrar qual foi o salário do funcionário nesse mês, co
 
 Exemplo de entrada e saída:
 
-![in_out](image.png)
+![in_out](in_out.png)
 
