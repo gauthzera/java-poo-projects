@@ -20,6 +20,8 @@ public class Individual extends TaxPayer {
         if(healthExpenditures!=0){
             resulTax-=healthExpenditures*0.5;
         }
+        if(resulTax<0)resulTax=0;
+
         return resulTax;
     }
 }
